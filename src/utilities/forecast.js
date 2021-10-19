@@ -8,7 +8,10 @@ const forecast = (latitude,longitude, callback) => {
         } else if (body.error === 0) {
             callback('Error: unable to find your location. Please try another city.', undefined)
         } else {
-            callback(undefined, body.current.weather_descriptions[0] + '. It is currently ' + body.current.temperature + 'oC in ' + body.location.name + ' with a uv index of ' + body.current.uv_index )
+            const myString = body.current.weather_descriptions[0] + '. It is currently ' + body.current.temperature + 'oC in ' + body.location.name + ' with a uv index of ' + body.current.uv_index+'.'
+            // +'Observation time: '+body.current.observation_time+'\n'
+            // +'Local time: '+body.location.localtime 
+            callback(undefined, myString )
         }
 
     })
