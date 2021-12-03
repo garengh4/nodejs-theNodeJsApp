@@ -23,15 +23,15 @@ app.use(express.static(path.join(publicDirectoryPath)))
 //dynamic content
 app.get('', (req,res) =>{
     res.render('index', {
-        title: 'Weather App',
-        name: 'kitty-chan'
+        title: 'The nodeJs App',
+        name: 'Garen'
     })
 })
 
 app.get('/about',(req,res) => {
     res.render('about', {
         title: 'About',
-        name: 'kitty-chan'
+        name: 'Garen'
     })
 })
 
@@ -39,7 +39,7 @@ app.get('/help',(req,res) =>{
     res.render('help',{
         helpText: 'This is some helpful text',
         title:'Help',
-        name: 'kitty-chan'
+        name: 'Garen'
     })
 })
 
