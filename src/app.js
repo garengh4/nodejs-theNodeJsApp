@@ -5,7 +5,7 @@ const geocode = require('./utilities/geocode')
 const forecast = require('./utilities/forecast')
 
 const app = express()
-const port = process.env.PORT || 3000
+const port = process.env.PORT || 3000 //process.env allows heroku to set its own port number
 
 // define paths for Express config
 const publicDirectoryPath = path.join(__dirname, '../public')
