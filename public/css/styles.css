@@ -34,7 +34,11 @@ header a {
 }
 
 .portrait {
-    width: 200px
+    width: 200px;
+    height: 170px;
+    padding-right: 20px; 
+    padding-left: 20px; 
+    padding-bottom: 20px;
 }
 
 .main-content {
@@ -55,6 +59,6 @@ button {
 
 }
 
-div.center {
-    text-align: center;
-}
+table, th, td {
+    border:1px solid black;
+  }
