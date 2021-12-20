@@ -1,10 +1,10 @@
 body {
     color: #333333;
-    font-family: cursive;
-    max-width: 650px;
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 700px;
     margin: 0 auto;
     padding: 0 16px;
-
+    margin-bottom: 24px;
     display:flex;
     flex-direction: column;
     min-height: 100vh
@@ -19,11 +19,11 @@ footer {
 
 header {
     margin-top: 16px;
-    margin-bottom: 48px;
+    margin-bottom: 24px;
 }
 
 h1 {
-    font-size: 64px;
+    font-size: 32px;
     margin-bottom: 16px;
 }
 
@@ -53,4 +53,8 @@ button {
     color:white;
     padding: 6px;
 
+}
+
+div.center {
+    text-align: center;
 }

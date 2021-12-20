@@ -12,11 +12,57 @@
 <body>
     <div class="main-content">
         {{>header}}
-        <img class="portrait" src="img/chewie.JPG" align="right">
-        <p>This site is crated by Garen using NodeJS through the guide of udemy.</p>
-        <p>Data is extracted from mapbox.com for geo-locking, and weatherstack.com for forecasting.</p>
+        <hr>
+        <p>
+            <b>mean stack</b><br>
+            This html is created and launched using Mongodb, Express, Angular and NodeJS. Its file structure and setup
+            is heavily influeneced udemy instructor <a href="https://www.udemy.com/user/andrewmead/">Andrew Mead</a>.
+        </p>
+        <p>
+            Json data is first extracted from <a href="https://www.mapbox.com/">mapbox</a> for geo-locking followed by
+            an api request sent to <a href="https://weatherstack.com/">weatherstack</a> for weather forecasting. Use
+            this search box below to find out about weathers around the world!
+        </p>
+        <div>
+            <form>
+                <input placeholder="Location">
+                <button>Search</button>
+            </form>
+            <p id="message-1">=></p>
+            <p id="message-2">=></p>
+            <script src="js/app.js"></script>
+        </div>
+
+        <br>
+        <p>
+            <b>java backend with angular frontend</b><br>
+            My main focus actually on Java, an SQL database and an angular frontend is developed to interact with the
+            java spring backend. Using controller, service, repository, dto and entity pattern, our user can
+            interact with database through rest api style.
+        </p>
+        <p>
+            This stack is built as a seperate app hosted by heroku. Built with an amazon shopping cart style in mind,
+            click <a href="https://garengh4-angular2.herokuapp.com/applicationHome/login">here</a> to access the
+            interface! <br>
+            <br>
+            <u>Default Credentials:</u><br>
+            Email Id: tom@infosys.com <br>
+            password: Tom@123 
+            <br>
+            <br>
+        </p>
+
+        <p>
+            <b>Electrical and Computer Engineering MASc</b><br>
+            //TODO: Add supervisor and project details here
+        </p>
     </div>
+
+
+
+
     {{>footer}}
+
 
 </body>
 
